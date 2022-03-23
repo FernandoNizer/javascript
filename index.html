@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Script</title>
+    <script>
+        var tx;
+    </script>
+</head>
+<style>
+    body{
+        background-color: black;
+        font-size: 2em;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    
+    <h1>Teste de Script</h1>
+    
+    <script>
+        var opc;
+        opc=prompt("Digite um numero de 1 a 10!");
+        if ((opc < 5 ) && (opc > 0)){
+            document.write("Você perdeu!" +"<br>" + "Você digitou o número  " + opc + "!" )}
+        if (opc == 5){
+            document.write("Nós empatamos!"+ "<br>" + "Você digitou " + '(  ' + opc + " )!")}  
+        if ((opc > 5) && ( opc < 11 )) {
+            document.write("Você venceu! "+"<br>" + "Você digitou o número  " + opc + "!" )}
+        if (opc <= 0){
+            document.write("Você não digitou um número válido!"+ "<br>" + "Você digitou " + '(' + opc + ")!"+"<br>")
+        }
+        if (opc == undefined){
+            document.write("Você não digitou um número válido!"+ "<br>" + "Você digitou " + '(  ' + opc + " )!"+"<br>" + "Digite um número entre 1 e 10!")}    
+        if (opc >= 11){
+           document.write("Digite um número entre 1 e 10!")}
+            
+        
+    </script>
+    
+</body>
+</html>
