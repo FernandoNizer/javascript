@@ -15,31 +15,31 @@
         }
     </style>
 </head>
-<body>
-    <h1>Teste de Script</h1>
 
-    <script>
-     
-        var max=100;
-        var min=1;
-        var num= Math.floor(Math.random()*max);
-        var opc;
-        opc = prompt("Digite um número de 1 a 100!")
+    <body>
+        <h1>Teste de Script</h1>
 
-        if ((opc === undefined) || (opc < min) ||   (opc === null)){
-            document.write("Você não digitou um número válido!" + "<br>" + "Você digitou " + '(' + opc + " )!" + "<br>" + "Digite um número entre 1 e 100!" +"<br>")}  
-        if (opc > max) {
-            document.write("Digite um número entre 1 e 100!")}
-        if ((opc > num) && (opc < max + 1)){
-           document.write("Saiu o número "+num+ "!"+"<br>" +"Você Venceu!"+"<br>" + "Você digitou o número  " + opc + " !")}
-        if ((opc < num) && (opc < max)){
-            document.write("Saiu o número "+num+ "!"+"<br>" + "Você Perdeu!"+ "<br>" + "Você digitou " + opc + " !")  
-        }
-        if(opc === num){
-            document.write("Saiu o número "+num+ "!"+"<br>" +"Nós empatamos!"+ "<br>" + "Você digitou " + '(' + opc + ")!")
-        }  
+        <script>
+        
+            var max=100;
+            var min=1;
+            var num= Math.floor(Math.random()*max);
+            var opc;
+            opc = prompt("Digite um número de 1 a 100!")
 
-    </script>
-    
-</body>
+            if ((opc === undefined) || (opc < min) ||   (opc === null)){
+                document.write("Você não digitou um número válido!" + "<br>" + "Você digitou " + '(' + opc + " )!" + "<br>" + "Digite um número entre 1 e 100!" +"<br>")}  
+            if (opc > max) {
+                document.write("Digite um número entre 1 e 100!")}
+            if ((opc > num) && (opc < max + 1)){
+            document.write("Saiu o número "+num+ "!"+"<br>" +"Você Venceu!"+"<br>" + "Você digitou o número  " + opc + " !")}
+            if ((opc < num) && (opc < max)){
+                document.write("Saiu o número "+num+ "!"+"<br>" + "Você Perdeu!"+ "<br>" + "Você digitou " + opc + " !")  
+            }
+            if(opc === num){
+                document.write("Saiu o número "+num+ "!"+"<br>" +"Nós empatamos!"+ "<br>" + "Você digitou " + '(' + opc + ")!")
+            }  
+        </script>
+
+    </body>
 </html>
